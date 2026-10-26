@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: Please cite this dataset and the exact revision used.
+title: Arabic Form Grounding
+type: dataset
+version: 0.1.0
+date-released: 2026-10-26
+authors:
+  - name: Bayanat Labs
+    website: https://www.bayanatlabs.com
+url: https://huggingface.co/datasets/Bayanat-Labs/arabic-form-grounding
+repository-code: https://github.com/Bayanat-Labs/arabic-form-grounding
+license: CC-BY-4.0
+abstract: Original synthetic Arabic section-aware semantic field grounding fixtures with exact rendered field areas, controlled abstention, layout-family splits and matched representation/counterfactual pairs. No human annotation or natural-form accuracy is claimed.

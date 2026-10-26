@@ -1,0 +1,65 @@
+{
+  "version": "0.1.0",
+  "scope": "original synthetic forms and controlled questions",
+  "renderer": "Pillow with RAQM/HarfBuzz; direct raster semantic field rectangles",
+  "pillow": "12.3.0",
+  "python": "3.14.7",
+  "raqm": "0.10.5",
+  "harfbuzz": "14.2.1",
+  "freetype2": "2.14.3",
+  "dimensions": [
+    1280,
+    1600
+  ],
+  "pilot": false,
+  "build_source_sha256": "1a5e89e7328eb75af61ba2123250f8947c0e6659be1bb962a8d39601228f98ac",
+  "font_files": {
+    "NotoSans-Regular.ttf": "f5f552c8c5edb61fe6efb824baf4d4de47b1a8689ab4925ff43f7bd6a4ebece5",
+    "NotoSansArabic-Bold.ttf": "457926cb001ac787dc7415c89e6f5b1c4ce3a0f2c91d0cabc1bc19a05638e7de",
+    "NotoSansArabic-Regular.ttf": "d6efa4c9fac8ecefd2de19676acc3a396ba7aee99ba7a2d513950246841b6725"
+  },
+  "determinism": "Fixture IDs/content are deterministic; PNG bytes require the recorded rendering/font/runtime versions.",
+  "counts": {
+    "forms": 1152,
+    "independent_base_contexts": 864,
+    "questions": 9216,
+    "independent_base_question_contexts": 6912,
+    "pairs": 2304,
+    "forms_by_split": {
+      "train": 768,
+      "validation": 192,
+      "test": 192
+    },
+    "questions_by_split": {
+      "train": 6144,
+      "validation": 1536,
+      "test": 1536
+    },
+    "questions_by_status": {
+      "answerable": 6408,
+      "ambiguous": 1800,
+      "missing": 1008
+    },
+    "questions_by_task": {
+      "scoped_label": 3456,
+      "relative": 1152,
+      "extreme": 1152,
+      "unscoped_label": 1152,
+      "checkbox": 1152,
+      "singleton": 1152
+    },
+    "forms_by_variant": {
+      "base": 864,
+      "eastern_digits": 144,
+      "section_counterfactual": 144
+    },
+    "pairs_by_relation": {
+      "invariant": 1872,
+      "sensitive": 432
+    },
+    "layout_families": 24,
+    "fictional_domains": 6,
+    "minimum_font_px": 21,
+    "image_bytes": 106895727
+  }
+}

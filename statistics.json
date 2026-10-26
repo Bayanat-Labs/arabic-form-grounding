@@ -1,0 +1,43 @@
+{
+  "forms": 1152,
+  "independent_base_contexts": 864,
+  "questions": 9216,
+  "independent_base_question_contexts": 6912,
+  "pairs": 2304,
+  "forms_by_split": {
+    "train": 768,
+    "validation": 192,
+    "test": 192
+  },
+  "questions_by_split": {
+    "train": 6144,
+    "validation": 1536,
+    "test": 1536
+  },
+  "questions_by_status": {
+    "answerable": 6408,
+    "ambiguous": 1800,
+    "missing": 1008
+  },
+  "questions_by_task": {
+    "scoped_label": 3456,
+    "relative": 1152,
+    "extreme": 1152,
+    "unscoped_label": 1152,
+    "checkbox": 1152,
+    "singleton": 1152
+  },
+  "forms_by_variant": {
+    "base": 864,
+    "eastern_digits": 144,
+    "section_counterfactual": 144
+  },
+  "pairs_by_relation": {
+    "invariant": 1872,
+    "sensitive": 432
+  },
+  "layout_families": 24,
+  "fictional_domains": 6,
+  "minimum_font_px": 21,
+  "image_bytes": 106895727
+}
