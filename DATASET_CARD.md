@@ -1,11 +1,15 @@
-# Arabic Form Grounding v0.1.0
+# Arabic Form Field Extraction v0.1.0
+
+Question-based extraction of field values and locations from synthetic Arabic forms.
+
+Previously published as **Arabic Form Grounding**. This is a name clarification; the v0.1.0 data, tasks and immutable release remain unchanged.
 
 Locate a field by its Arabic section, label or spatial relationship, return its
 value and complete field rectangle, and abstain when the request has no single
 supported answer. These are **original Bayanat-authored synthetic fixtures**.
 They contain no real customer records or source document scans.
 
-[Explorer](https://huggingface.co/spaces/Bayanat-Labs/arabic-form-grounding) ·
+[Explorer](https://huggingface.co/spaces/Bayanat-Labs/arabic-form-field-extraction) ·
 [Code and scorer](https://github.com/Bayanat-Labs/arabic-form-grounding/tree/v0.1.0) ·
 [Research page](https://www.bayanatlabs.com/open/arabic-form-grounding)
 
@@ -53,9 +57,9 @@ generalization. Values are fictional; some status/count/date values repeat.
 import json
 from datasets import load_dataset
 
-forms = load_dataset("Bayanat-Labs/arabic-form-grounding", "forms",
+forms = load_dataset("Bayanat-Labs/arabic-form-field-extraction", "forms",
                      split="test", revision="v0.1.0")
-questions = load_dataset("Bayanat-Labs/arabic-form-grounding", "questions",
+questions = load_dataset("Bayanat-Labs/arabic-form-field-extraction", "questions",
                          split="test", revision="v0.1.0")
 form = forms[0]
 elements = json.loads(form["elements_json"])
@@ -198,10 +202,10 @@ and [CITATION.cff](CITATION.cff). Corrections: hello@bayanatlabs.com.
 
 ```bibtex
 @misc{bayanatlabs2026arabicformgrounding,
-  title = {Arabic Form Grounding},
+  title = {Arabic Form Field Extraction},
   author = {{Bayanat Labs}},
   year = {2026},
   version = {0.1.0},
-  url = {https://huggingface.co/datasets/Bayanat-Labs/arabic-form-grounding}
+  url = {https://huggingface.co/datasets/Bayanat-Labs/arabic-form-field-extraction}
 }
 ```

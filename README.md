@@ -1,8 +1,12 @@
-# Arabic Form Grounding — source v0.1.0
+# Arabic Form Field Extraction — source v0.1.0
+
+Question-based extraction of field values and locations from synthetic Arabic forms.
+
+Previously published as **Arabic Form Grounding**. This is a name clarification; the v0.1.0 data, tasks and immutable release remain unchanged.
 
 An offline compiler, independent validator and scorer for **original synthetic Arabic forms**. Locate a field from its section, label or spatial relationship, return its value and complete semantic field rectangle, and abstain when no single answer is supported. The full release has 864 base contexts, 1,152 rendered views, 9,216 question rows and 2,304 matched pairs. Repeated views are not independent real forms. No customer records, natural scans, human annotation or learned-model accuracy are claimed.
 
-[Dataset v0.1.0](https://huggingface.co/datasets/Bayanat-Labs/arabic-form-grounding/tree/v0.1.0) · [Explorer](https://huggingface.co/spaces/Bayanat-Labs/arabic-form-grounding) · [Company release page](https://www.bayanatlabs.com/open/arabic-form-grounding) · [Full dataset card](DATASET_CARD.md)
+[Dataset v0.1.0](https://huggingface.co/datasets/Bayanat-Labs/arabic-form-field-extraction/tree/v0.1.0) · [Explorer](https://huggingface.co/spaces/Bayanat-Labs/arabic-form-field-extraction) · [Company release page](https://www.bayanatlabs.com/open/arabic-form-grounding) · [Full dataset card](DATASET_CARD.md)
 
 This checkout contains code, unit tests, schema/rights documents and permitted unmodified fonts. Released JSONL/Parquet and images live on Hugging Face and are absent here. The full dataset card describes that download, not files already present in this source checkout.
 
